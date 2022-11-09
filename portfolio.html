@@ -21,26 +21,26 @@
     <header class="card-header">
       <div class="container">
         <div class="card-header__body">
-          <div class="navigation">
-            <a href="#" class=logo target="_blank" title="link do WebStudio"
-              ><span class="logo__title">Web</span>Studio</a>
+          <div class="card-header__index">
+            <a href="#" class=card-header__logo target="_blank" title="link do WebStudio"
+              ><span class="card-header__title">Web</span>Studio</a>
             <ul class="nav">
-              <li><a class="nav__link active" href="./index.html">Studio</a></li>
-              <li><a class="nav__link" href="./portfolio.html">Portfolio</a></li>
+              <li><a class="nav__link" href="./index.html">Studio</a></li>
+              <li><a class="nav__link active" href="./portfolio.html">Portfolio</a></li>
               <li><a class="nav__link" href="#Kontakt">Contact</a></li>
             </ul>
           </div>
-          <ul class="contact-group">
-            <li class="contact-group__list">
-              <a class="contact-group__link href="mailto:info@devstudio.com"
-                ><svg class="contact-group__icon" width="16" height="12">
+          <ul class="card-header__list">
+            <li class="card-header__list-item">
+              <a class="card-header__link" href="mailto:info@devstudio.com"
+                ><svg class="card-header__icon" width="16" height="12">
                   <use href="./images/icons.svg#icon-envelope1"></use></svg
                 >info@devstudio.com</a
               >
             </li>
-            <li class="contact-group__list">
-              <a class="contact-group__link" href="tel:+48111111111"
-                ><svg class="contact-group__icon" width="10" height="16">
+            <li class="card-header__list-item">
+              <a class="card-header__link" href="tel:+48111111111"
+                ><svg class="card-header__icon" width="10" height="16">
                   <use href="./images/icons.svg#icon-smartphone2"></use></svg
                 >+48 111 111 111</a
               >
@@ -249,66 +249,67 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="card-footer">
       <div class="container">
-        <div class="footer-box">
-          <div>
-            <a href="#" target="_blank" title="link do WebStudio" class="web2"
-              ><span>Web</span>Studio</a
+        <div class="card-footer__body">
+          <div class="card-footer__group">
+            <a class="card-footer__logo" href="#" target="_blank" title="link do WebStudio"
+              ><span class="card-footer__title">Web</span>Studio</a
             >
-            <address class="address">
-              <p>m. Warszawa, Aleje Jerozolimskie 21</p>
-              <ul class="contacts-footer">
-                <li>
-                  <a href="mailto:info@devstudio.com">info@example.com</a>
+            <address class="card-footer__index">
+              <p class="card-footer__text">m. Warszawa, Aleje Jerozolimskie 21</p>
+              <ul class="card-footer__list">
+                <li class="card-footer__list-item">
+                  <a class="card-footer__link" href="mailto:info@devstudio.com">info@example.com</a>
                 </li>
-                <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+                <li class="card-footer__list-item">
+                  <a class="card-footer__link" href="tel:+48111111111">+48 111 111 111</a></li>
               </ul>
             </address>
           </div>
-          <div class="connections">
-            <div class="find-us">find us on</div>
-            <div>
-              <ul class="social-media sm-footer">
-                <li>
-                  <a class="circle c-footer" href="#"
-                    ><svg class="icon" width="20" height="20">
+          <div class="nav-footer">
+            <div class="nav-footer__title">find us on</div>
+            <div class="nav-footer__index">
+              <ul class="card-main__actions nav-footer__list">
+                <li class="nav-footer__list-item">
+                  <a class="card-main__figure nav-footer__link" href="#"
+                    ><svg class="nav-footer__icon" width="20" height="20">
                       <use
                         href="./images/icons.svg#icon-instagram-1"
                       ></use></svg
                   ></a>
                 </li>
-                <li>
-                  <a class="circle c-footer" href="#"
-                    ><svg class="icon" width="20" height="20">
+                <li class="nav-footer__list-item">
+                  <a class="card-main__figure nav-footer__link" href="#"
+                    ><svg class="nav-footer__icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-twitter-2"></use></svg
                   ></a>
                 </li>
-                <li>
-                  <a class="circle c-footer" href="#"
-                    ><svg class="icon" width="20" height="20">
+                <li class="nav-footer__list-item">
+                  <a class="card-main__figure nav-footer__link" href="#"
+                    ><svg class="nav-footer__icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-facebook-3"></use></svg
                   ></a>
                 </li>
-                <li>
-                  <a class="circle c-footer" href="#"
-                    ><svg class="icon" width="20" height="20">
+                <li class="nav-footer__list-item">
+                  <a class="card-main__figure nav-footer__link" href="#"
+                    ><svg class="nav-footer__icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-linkedin-4"></use></svg
                   ></a>
                 </li>
               </ul>
             </div>
           </div>
-          <form class="form-subscribe">
-            <p class="find-us">subscribe to the newsletter</p>
-            <div class="subscription">
-              <label> 
-                <input type="email" name="E-mail" class="news-window" placeholder="E-mail">
-              </label>
-              <button type="button" class="subscribe-btn"><span>Subscribe</span><svg class="icon" width="24" height="24"><use href="./images/icons.svg#icon-send"></use></svg></button>
-            </div>
-           </form>
+         <form class="footer-actions">
+          <p class="nav-footer__title">subscribe to the newsletter</p>
+          <div class="footer-actions__group">
+            <label class="footer-actions__label"> 
+              <input class="footer-actions__input" type="email" name="E-mail" placeholder="E-mail">
+            </label>
+            <button class="footer-actions__btn" type="submit"><span class="footer-actions__title">Subscribe</span><svg class="footer-actions__icon" width="24" height="24"><use href="./images/icons.svg#icon-send"></use></svg></button>
           </div>
+         </form>
+        </div>
       </div>
     </footer>
   </body>

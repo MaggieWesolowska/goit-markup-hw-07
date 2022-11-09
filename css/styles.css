@@ -34,7 +34,7 @@ a {
     justify-content: space-between;
     background: #FFF;
 }
-.navigation {
+.card-header__index {
     display: flex;
     align-items: center;
 }
@@ -91,7 +91,7 @@ a {
     border-radius: 2px;
     transform: translateY(26px);
 }
-.contact-group {
+.card-header__list {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -102,7 +102,7 @@ a {
     letter-spacing: 0.02em;
     color: var(--grey-color);
 }
-.contact-group__link {
+.card-header__link {
     display: flex;
     padding: 25px;
     color: inherit;
@@ -110,16 +110,15 @@ a {
     align-items: center;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contact-group__link .contact-group__icon {
+.card-header__link .card-header__icon {
     fill: var(--grey-color);
     margin-right: 10px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contact-group__link:hover, .contact-group__link:focus {
+.card-header__link:hover, .card-header__link:focus {
     color: var(--accent-color);
-    
 }
-.contact-group__list:hover .contact-group__icon, .contact-group__list:focus .contact-group__icon {
+.card-header__list-item:hover .card-header__icon, .card-header__list-item:focus .card-header__icon {
     fill: var(--accent-color);
 }
 .card-a {
