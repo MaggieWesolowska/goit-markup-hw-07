@@ -15,7 +15,7 @@ a {
     text-decoration: none;
     color: var(--accent-color);
 }
-.body-main {
+.card {
     font-family: 'Roboto', sans-serif;
     color: var(--brand-color);
 }   
@@ -25,16 +25,16 @@ a {
     margin: 0 auto;
     padding: 0 15px;
 }
-.page-header {
+.card-header {
     border-bottom: 1px solid #ECECEC;
 }
-.page-header__card {
+.card-header__body {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: #FFF;
 }
-.navigation-group {
+.navigation {
     display: flex;
     align-items: center;
 }
@@ -169,7 +169,7 @@ a {
     padding: 94px 0; 
     gap: 30px;
 }
-.card-b__heading {
+.card-b__title {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -198,7 +198,7 @@ a {
     justify-content: center;
     align-items: center;
 }
-.heading {
+.card-main__title {
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
