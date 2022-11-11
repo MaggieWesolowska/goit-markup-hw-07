@@ -421,7 +421,7 @@ body {
   position: relative;
   overflow: hidden;
 }
-.portfolio__figure p {
+.portfolio__text {
   font-size: 18px;
   line-height: 1.55;
   letter-spacing: 0.03em;
