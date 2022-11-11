@@ -3,14 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>Portfolio</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -18,30 +28,66 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="card">
-    <header class="card-header">
-      <div class="container">
-        <div class="card-header__body">
-          <div class="card-header__index">
-            <a href="#" class=card-header__logo target="_blank" title="link do WebStudio"
-              ><span class="card-header__title">Web</span>Studio</a>
+    <header class="header">
+      <div class="main__container">
+        <div class="header__body">
+          <div class="header__index">
+            <a
+              href="#"
+              class="header__logo"
+              target="_blank"
+              title="link do WebStudio"
+              ><span class="header__title">Web</span
+              >Studio</a
+            >
             <ul class="nav">
-              <li><a class="nav__link" href="./index.html">Studio</a></li>
-              <li><a class="nav__link nav__link--active" href="./portfolio.html">Portfolio</a></li>
-              <li><a class="nav__link" href="#Kontakt">Contact</a></li>
+              <li>
+                <a class="nav__link" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li>
+                <a
+                  class="nav__link nav__link--active"
+                  href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li>
+                <a class="nav__link" href="#Kontakt"
+                  >Contact</a
+                >
+              </li>
             </ul>
           </div>
-          <ul class="card-header__list">
-            <li class="card-header__list-item">
-              <a class="card-header__link" href="mailto:info@devstudio.com"
-                ><svg class="card-header__icon" width="16" height="12">
-                  <use href="./images/icons.svg#icon-envelope1"></use></svg
+          <ul class="header__list">
+            <li class="header__list-item">
+              <a
+                class="header__link"
+                href="mailto:info@devstudio.com"
+                ><svg
+                  class="header__icon"
+                  width="16"
+                  height="12"
+                >
+                  <use
+                    href="./images/icons.svg#icon-envelope1"
+                  ></use></svg
                 >info@devstudio.com</a
               >
             </li>
-            <li class="card-header__list-item">
-              <a class="card-header__link" href="tel:+48111111111"
-                ><svg class="card-header__icon" width="10" height="16">
-                  <use href="./images/icons.svg#icon-smartphone2"></use></svg
+            <li class="header__list-item">
+              <a
+                class="header__link"
+                href="tel:+48111111111"
+                ><svg
+                  class="header__icon"
+                  width="10"
+                  height="16"
+                >
+                  <use
+                    href="./images/icons.svg#icon-smartphone2"
+                  ></use></svg
                 >+48 111 111 111</a
               >
             </li>
@@ -49,32 +95,43 @@
         </div>
       </div>
     </header>
-    <main class="card-main">
-        <div class="container">
-          <ul class="card-f">
-            <li class="card-f__item">
-              <button class="card-f__btn" type="button">All</button>
-            </li>
-            <li class="card-f__item">
-              <button class="card-f__btn" type="button">Web-sites</button>
-            </li>
-            <li class="card-f__item">
-              <button class="card-f__btn" type="button">Apps</button>
-            </li>
-            <li class="card-f__item">
-              <button class="card-f__btn" type="button">Design</button>
-            </li>
-            <li class="card-f__item">
-              <button class="card-f__btn" type="button">Marketing</button>
-            </li>
-          </ul>
-        </div>
+    <main class="main">
+      <div class="main__container">
+        <ul class="card-f">
+          <li class="card-f__item">
+            <button class="card-f__btn" type="button">
+              All
+            </button>
+          </li>
+          <li class="card-f__item">
+            <button class="card-f__btn" type="button">
+              Web-sites
+            </button>
+          </li>
+          <li class="card-f__item">
+            <button class="card-f__btn" type="button">
+              Apps
+            </button>
+          </li>
+          <li class="card-f__item">
+            <button class="card-f__btn" type="button">
+              Design
+            </button>
+          </li>
+          <li class="card-f__item">
+            <button class="card-f__btn" type="button">
+              Marketing
+            </button>
+          </li>
+        </ul>
+      </div>
       <section class="card-g">
-        <div class="container">
-          <ul class="card-main__images card-g__index">
+        <div class="main__container">
+          <ul class="main-images card-g__index">
             <li class="card-g__item">
               <div class="card-g__figure">
-                <img class="card-g__image"
+                <img
+                  class="card-g__image"
                   src="images/1technocrack.jpg"
                   alt="technocracy"
                   width="370"
@@ -82,9 +139,11 @@
                 />
                 <div class="card-g__aside">
                   <p class="card-g__text">
-                    Technoduck is a state-of-the-art coronavirus distribution
-                    platform. Companies use this platform for digital espionage
-                    and attacks on competitors' secure servers.
+                    Technoduck is a state-of-the-art
+                    coronavirus distribution platform.
+                    Companies use this platform for digital
+                    espionage and attacks on competitors'
+                    secure servers.
                   </p>
                 </div>
               </div>
@@ -93,218 +152,318 @@
             </li>
             <li class="card-g__item">
               <div class="card-g__figure">
-                <img class="card-g__image"
-                src="images/2grafika-new-orleans-vs.jpg"
-                alt="graphics"
-                width="370"
-                height="294"
-              />
-              <div class="card-g__aside">
-                <p class="card-g__text">
-                  Technoduck is a state-of-the-art coronavirus distribution
-                  platform. Companies use this platform for digital espionage
-                  and attacks on competitors' secure servers.
-                </p>
+                <img
+                  class="card-g__image"
+                  src="images/2grafika-new-orleans-vs.jpg"
+                  alt="graphics"
+                  width="370"
+                  height="294"
+                />
+                <div class="card-g__aside">
+                  <p class="card-g__text">
+                    Technoduck is a state-of-the-art
+                    coronavirus distribution platform.
+                    Companies use this platform for digital
+                    espionage and attacks on competitors'
+                    secure servers.
+                  </p>
+                </div>
               </div>
-             </div>
-             <h3 class="card-g__title">Poster New Orlean vs Golden Star</h3>
-             <p class="card-g__subtitle">Design</p>
+              <h3 class="card-g__title">
+                Poster New Orlean vs Golden Star
+              </h3>
+              <p class="card-g__subtitle">Design</p>
             </li>
             <li class="card-g__item">
               <div class="card-g__figure">
-                <img class="card-g__image"
-                src="images/3restauracja-seafood.jpg"
-                alt="seafood restaurant"
-                width="370"
-                height="294"
-               />
-               <div class="card-g__aside">
-                <p class="card-g__text">
-                  Technoduck is a state-of-the-art coronavirus distribution
-                  platform. Companies use this platform for digital espionage
-                  and attacks on competitors' secure servers.
-                </p>
+                <img
+                  class="card-g__image"
+                  src="images/3restauracja-seafood.jpg"
+                  alt="seafood restaurant"
+                  width="370"
+                  height="294"
+                />
+                <div class="card-g__aside">
+                  <p class="card-g__text">
+                    Technoduck is a state-of-the-art
+                    coronavirus distribution platform.
+                    Companies use this platform for digital
+                    espionage and attacks on competitors'
+                    secure servers.
+                  </p>
+                </div>
               </div>
-             </div>
-             <h3 class="card-g__title">Seafood Restaurant</h3>
-             <p class="card-g__subtitle">Apps</p>
+              <h3 class="card-g__title">
+                Seafood Restaurant
+              </h3>
+              <p class="card-g__subtitle">Apps</p>
             </li>
             <li class="card-g__item">
               <div class="card-g__figure">
-                <img class="card-g__image"
-                src="images/4projekt-prime.jpg"
-                alt="project prime"
-                width="370"
-                height="294"
-               />
-               <div class="card-g__aside">
-                <p class="card-g__text">
-                  Technoduck is a state-of-the-art coronavirus distribution
-                  platform. Companies use this platform for digital espionage
-                  and attacks on competitors' secure servers.
-                </p>
-               </div>
+                <img
+                  class="card-g__image"
+                  src="images/4projekt-prime.jpg"
+                  alt="project prime"
+                  width="370"
+                  height="294"
+                />
+                <div class="card-g__aside">
+                  <p class="card-g__text">
+                    Technoduck is a state-of-the-art
+                    coronavirus distribution platform.
+                    Companies use this platform for digital
+                    espionage and attacks on competitors'
+                    secure servers.
+                  </p>
+                </div>
               </div>
               <h3 class="card-g__title">Project Prime</h3>
               <p class="card-g__subtitle">Marketing</p>
             </li>
             <li class="card-g__item">
               <div class="card-g__figure">
-                <img class="card-g__image"
-                src="images/5projekt-boxes.jpg"
-                alt="project boxes"
-                width="370"
-                height="294"
-               />
-               <div class="card-g__aside">
-                <p class="card-g__text">
-                  Technoduck is a state-of-the-art coronavirus distribution
-                  platform. Companies use this platform for digital espionage
-                  and attacks on competitors' secure servers.
-                </p>
-               </div>
+                <img
+                  class="card-g__image"
+                  src="images/5projekt-boxes.jpg"
+                  alt="project boxes"
+                  width="370"
+                  height="294"
+                />
+                <div class="card-g__aside">
+                  <p class="card-g__text">
+                    Technoduck is a state-of-the-art
+                    coronavirus distribution platform.
+                    Companies use this platform for digital
+                    espionage and attacks on competitors'
+                    secure servers.
+                  </p>
+                </div>
               </div>
               <h3 class="card-g__title">Project Boxes</h3>
               <p class="card-g__subtitle">Apps</p>
             </li>
             <li class="card-g__item">
               <div class="card-g__figure">
-                <img class="card-g__image"
-                src="images/6inspiration-has-no-borders.jpg"
-                alt="inspiration"
-                width="370"
-                height="294"
-              />
-               <div class="card-g__aside">
-                <p class="card-g__text">
-                  Technoduck is a state-of-the-art coronavirus distribution
-                  platform. Companies use this platform for digital espionage
-                  and attacks on competitors' secure servers.
-                </p>
-               </div>
+                <img
+                  class="card-g__image"
+                  src="images/6inspiration-has-no-borders.jpg"
+                  alt="inspiration"
+                  width="370"
+                  height="294"
+                />
+                <div class="card-g__aside">
+                  <p class="card-g__text">
+                    Technoduck is a state-of-the-art
+                    coronavirus distribution platform.
+                    Companies use this platform for digital
+                    espionage and attacks on competitors'
+                    secure servers.
+                  </p>
+                </div>
               </div>
-              <h3 class="card-g__title">Inspiration has no Borders</h3>
+              <h3 class="card-g__title">
+                Inspiration has no Borders
+              </h3>
               <p class="card-g__subtitle">Web-site</p>
             </li>
             <li class="card-g__item">
               <div class="card-g__figure">
-                <img class="card-g__image"
-                src="images/7magazyn-le.jpg"
-                alt="magazine"
-                width="370"
-                height="294"
-              />
-               <div class="card-g__aside">
-                <p class="card-g__text">
-                  Technoduck is a state-of-the-art coronavirus distribution
-                  platform. Companies use this platform for digital espionage
-                  and attacks on competitors' secure servers.
-                </p>
-               </div>
+                <img
+                  class="card-g__image"
+                  src="images/7magazyn-le.jpg"
+                  alt="magazine"
+                  width="370"
+                  height="294"
+                />
+                <div class="card-g__aside">
+                  <p class="card-g__text">
+                    Technoduck is a state-of-the-art
+                    coronavirus distribution platform.
+                    Companies use this platform for digital
+                    espionage and attacks on competitors'
+                    secure servers.
+                  </p>
+                </div>
               </div>
               <h3 class="card-g__title">Limited Edition</h3>
               <p class="card-g__subtitle">Design</p>
             </li>
             <li class="card-g__item">
               <div class="card-g__figure">
-                <img class="card-g__image"
-                src="images/8projekt-lab.jpg"
-                alt="project lab"
-                width="370"
-                height="294"
-              />
-               <div class="card-g__aside">
-                <p class="card-g__text">
-                  Technoduck is a state-of-the-art coronavirus distribution
-                  platform. Companies use this platform for digital espionage
-                  and attacks on competitors' secure servers.
-                </p>
-               </div>
+                <img
+                  class="card-g__image"
+                  src="images/8projekt-lab.jpg"
+                  alt="project lab"
+                  width="370"
+                  height="294"
+                />
+                <div class="card-g__aside">
+                  <p class="card-g__text">
+                    Technoduck is a state-of-the-art
+                    coronavirus distribution platform.
+                    Companies use this platform for digital
+                    espionage and attacks on competitors'
+                    secure servers.
+                  </p>
+                </div>
               </div>
               <h3 class="card-g__title">Project LAB</h3>
               <p class="card-g__subtitle">Marketing</p>
             </li>
             <li class="card-g__item">
               <div class="card-g__figure">
-                <img class="card-g__image"
-                src="images/9growing-business.jpg"
-                alt="growing business"
-                width="370"
-                height="294"
-              />
-               <div class="card-g__aside">
-                <p class="card-g__text">
-                  Technoduck is a state-of-the-art coronavirus distribution
-                  platform. Companies use this platform for digital espionage
-                  and attacks on competitors' secure servers.
-                </p>
-               </div>
+                <img
+                  class="card-g__image"
+                  src="images/9growing-business.jpg"
+                  alt="growing business"
+                  width="370"
+                  height="294"
+                />
+                <div class="card-g__aside">
+                  <p class="card-g__text">
+                    Technoduck is a state-of-the-art
+                    coronavirus distribution platform.
+                    Companies use this platform for digital
+                    espionage and attacks on competitors'
+                    secure servers.
+                  </p>
+                </div>
               </div>
-              <h3 class="card-g__title">Growing Business</h3>
+              <h3 class="card-g__title">
+                Growing Business
+              </h3>
               <p class="card-g__subtitle">Apps</p>
             </li>
           </ul>
         </div>
       </section>
     </main>
-    <footer class="card-footer">
-      <div class="container">
-        <div class="card-footer__body">
-          <div class="card-footer__group">
-            <a class="card-footer__logo" href="#" target="_blank" title="link do WebStudio"
-              ><span class="card-footer__title">Web</span>Studio</a
+    <footer class="footer">
+      <div class="main__container">
+        <div class="footer__body">
+          <div class="footer__group">
+            <a
+              class="footer__logo"
+              href="#"
+              target="_blank"
+              title="link do WebStudio"
+              ><span class="footer__title">Web</span
+              >Studio</a
             >
-            <address class="card-footer__index">
-              <p class="card-footer__text">m. Warszawa, Aleje Jerozolimskie 21</p>
-              <ul class="card-footer__list">
-                <li class="card-footer__list-item">
-                  <a class="card-footer__link" href="mailto:info@devstudio.com">info@example.com</a>
+            <address class="footer__index">
+              <p class="footer__text">
+                m. Warszawa, Aleje Jerozolimskie 21
+              </p>
+              <ul class="footer__list">
+                <li class="footer__list-item">
+                  <a
+                    class="footer__link"
+                    href="mailto:info@devstudio.com"
+                    >info@example.com</a
+                  >
                 </li>
-                <li class="card-footer__list-item">
-                  <a class="card-footer__link" href="tel:+48111111111">+48 111 111 111</a></li>
+                <li class="footer__list-item">
+                  <a
+                    class="footer__link"
+                    href="tel:+48111111111"
+                    >+48 111 111 111</a
+                  >
+                </li>
               </ul>
             </address>
           </div>
-          <div class="nav-footer">
-            <div class="nav-footer__title">find us on</div>
-              <ul class="card-main__actions nav-footer__list">
-                <li class="nav-footer__list-item">
-                  <a class="card-main__figure nav-footer__link" href="#"
-                    ><svg class="nav-footer__icon" width="20" height="20">
-                      <use
-                        href="./images/icons.svg#icon-instagram-1"
-                      ></use></svg
-                  ></a>
-                </li>
-                <li class="nav-footer__list-item">
-                  <a class="card-main__figure nav-footer__link" href="#"
-                    ><svg class="nav-footer__icon" width="20" height="20">
-                      <use href="./images/icons.svg#icon-twitter-2"></use></svg
-                  ></a>
-                </li>
-                <li class="nav-footer__list-item">
-                  <a class="card-main__figure nav-footer__link" href="#"
-                    ><svg class="nav-footer__icon" width="20" height="20">
-                      <use href="./images/icons.svg#icon-facebook-3"></use></svg
-                  ></a>
-                </li>
-                <li class="nav-footer__list-item">
-                  <a class="card-main__figure nav-footer__link" href="#"
-                    ><svg class="nav-footer__icon" width="20" height="20">
-                      <use href="./images/icons.svg#icon-linkedin-4"></use></svg
-                  ></a>
-                </li>
-              </ul>
+          <div class="tabs-footer">
+            <div class="tabs-footer__title">find us on</div>
+            <ul class="main-tabs tabs-footer__list">
+              <li class="tabs-footer__list-item">
+                <a
+                  class="main-figure tabs-footer__link"
+                  href="#"
+                  ><svg
+                    class="tabs-footer__icon"
+                    width="20"
+                    height="20"
+                  >
+                    <use
+                      href="./images/icons.svg#icon-instagram-1"
+                    ></use></svg
+                ></a>
+              </li>
+              <li class="tabs-footer__list-item">
+                <a
+                  class="main-figure tabs-footer__link"
+                  href="#"
+                  ><svg
+                    class="tabs-footer__icon"
+                    width="20"
+                    height="20"
+                  >
+                    <use
+                      href="./images/icons.svg#icon-twitter-2"
+                    ></use></svg
+                ></a>
+              </li>
+              <li class="tabs-footer__list-item">
+                <a
+                  class="main-figure tabs-footer__link"
+                  href="#"
+                  ><svg
+                    class="tabs-footer__icon"
+                    width="20"
+                    height="20"
+                  >
+                    <use
+                      href="./images/icons.svg#icon-facebook-3"
+                    ></use></svg
+                ></a>
+              </li>
+              <li class="tabs-footer__list-item">
+                <a
+                  class="main-figure tabs-footer__link"
+                  href="#"
+                  ><svg
+                    class="tabs-footer__icon"
+                    width="20"
+                    height="20"
+                  >
+                    <use
+                      href="./images/icons.svg#icon-linkedin-4"
+                    ></use></svg
+                ></a>
+              </li>
+            </ul>
           </div>
-         <form class="footer-actions">
-          <p class="nav-footer__title">subscribe to the newsletter</p>
-          <div class="footer-actions__group">
-            <label class="footer-actions__label"> 
-              <input class="footer-actions__input" type="email" name="E-mail" placeholder="E-mail">
-            </label>
-            <button class="footer-actions__btn" type="submit"><span class="footer-actions__title">Subscribe</span><svg class="footer-actions__icon" width="24" height="24"><use href="./images/icons.svg#icon-send"></use></svg></button>
-          </div>
-         </form>
+          <form class="footer-actions footer__actions">
+            <p class="tabs-footer__title">
+              subscribe to the newsletter
+            </p>
+            <div class="footer-actions__group">
+              <label class="footer-actions__label">
+                <input
+                  class="footer-actions__input"
+                  type="email"
+                  name="E-mail"
+                  placeholder="E-mail"
+                />
+              </label>
+              <button
+                class="footer-actions__btn"
+                type="submit"
+              >
+                <span class="footer-actions__title"
+                  >Subscribe</span
+                ><svg
+                  class="footer-actions__icon"
+                  width="24"
+                  height="24"
+                >
+                  <use
+                    href="./images/icons.svg#icon-send"
+                  ></use>
+                </svg>
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
