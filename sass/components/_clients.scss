@@ -17,13 +17,16 @@
     transition-property: fill, border-color, transform;
     transition-duration: 1s;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .clients__link:hover .clients__icon,
-  .clients__link:focus .clients__icon {
-    fill: #2196f3;
-    transform: scale(1.1);
-  }
-  .clients__icon:hover,
-  .clients__icon:focus {
-    border-color: #2196f3;
+    
+    // .clients__accent .clients__icon
+    &:hover &,
+    &:focus & {
+      fill: #2196f3;
+      transform: scale(1.1);
+    }
+    // .clients__icon
+    &:hover,
+    &:focus {
+      border-color: #2196f3;
+    }
   }

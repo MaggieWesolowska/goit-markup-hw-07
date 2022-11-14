@@ -20,10 +20,11 @@
   }
   .assets__icon {
     transition: transform 0.5s ease-in-out;
-  }
-  .assets__icon:hover,
-  .assets__icon:focus {
-    transform: rotate(90deg);
+      
+      &:hover,
+      &:focus {
+      transform: rotate(90deg);
+    }
   }
   .assets__accent {
     display: flex;

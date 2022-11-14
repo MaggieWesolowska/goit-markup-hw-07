@@ -38,11 +38,13 @@
   }
   .team__image {
     transition: transform 1s ease-in-out;
+    
+      &:hover,
+      &:focus {
+        transform: scale(1.1);
+      } 
   }
-  .team__image:hover,
-  .team__image:focus {
-    transform: scale(1.1);
-  }
+  
   .team__icon {
     fill: #afb1ba;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);

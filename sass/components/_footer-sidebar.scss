@@ -21,16 +21,17 @@
     letter-spacing: 0.03em;
     transition: border-color 250ms
       cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .footer-sidebar__input::placeholder {
-    color: rgba(255, 255, 255, 0.3);
-  }
-  .footer-sidebar__input:not(:placeholder-shown) {
-    border-color: var(--accent-color);
-  }
-  .footer-sidebar__input:hover,
-  .footer-sidebar__input:focus {
-    border-color: var(--accent-color);
+  
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.3);
+    }
+    &:not(:placeholder-shown) {
+      border-color: var(--accent-color);
+    }
+    &:hover,
+    &:focus {
+      border-color: var(--accent-color);
+    }
   }
   .footer-sidebar__btn {
     display: flex;
