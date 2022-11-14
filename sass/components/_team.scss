@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 94px 15px;
-    background-color: var(--white-color);
+    background-color: $whiteC;
   }
   .team__gallery {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -28,7 +28,7 @@
     padding-bottom: 30px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    color: var(--grey-color);
+    color: $greyC;
     text-align: center;
   }
   .team__accent {
@@ -46,6 +46,6 @@
   }
   
   .team__icon {
-    fill: #afb1ba;
+    fill: $iconC;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }

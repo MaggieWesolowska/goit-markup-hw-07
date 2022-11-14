@@ -1,5 +1,5 @@
 .footer {
-    background-color: var(--background-color);
+    background-color: $backgroundC;
   }
   .footer__body {
     display: flex;
@@ -20,11 +20,11 @@
   
     &:hover,
     &:focus {
-      color: var(--accent-color);
+      color: $accentC;
     }
   }
   .footer__title {
-    color: var(--accent-color);
+    color: $accentC;
   }
   .footer__index {
     display: block;
@@ -43,7 +43,7 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    color: var(--grey-color);
+    color: $greyC;
   }
   .footer__link {
     display: block;
@@ -54,6 +54,6 @@
   
    &:hover,
    &:focus {
-     color: var(--accent-color);
+     color: $accentC;
     }
   }

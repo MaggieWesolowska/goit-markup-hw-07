@@ -24,7 +24,7 @@
 
     &:hover .modal-window__icon,
     &:focus .modal-window__icon {
-      fill: var(--accent-color);
+      fill: $accentC;
     }
   }
   .modal-window__icon {

@@ -20,7 +20,7 @@
 
     &:hover,
     &:focus {
-      color: var(--accent-color);
+      color: $accentC;
     }
     
     &--active::after {
@@ -30,7 +30,7 @@
       content: "";
       width: 100%;
       height: 4px;
-      background: var(--accent-color);
+      background: $accentC;
       border-radius: 2px;
       transform: translateY(26px);
     }

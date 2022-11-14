@@ -9,10 +9,10 @@
   
     &:hover,
     &:focus {
-      background-color: var(--accent-color);
+      background-color: $accentC;
     }
   }
   .main-figure:hover .team__icon,
   .main-figure:focus .team__icon {
-    fill: white;
+    fill: #fff;
   }
