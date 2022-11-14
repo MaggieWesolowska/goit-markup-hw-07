@@ -1,2 +1,20 @@
-// @import "./utils/vars.scss";
-@import "./components/main__container";
+@import "./utils/vars.scss";
+@import "./components/container";
+@import "./components/header";
+@import "./components/nav";
+@import "./components/intro";
+@import "./components/assets";
+@import "./components/designs";
+@import "./components/team";
+@import "./components/clients";
+@import "./components/filters";
+@import "./components/portfolio";
+@import "./components/footer";
+@import "./components/footer-tabs";
+@import "./components/footer-sidebar";
+@import "./components/modal-background";
+@import "./components/is-hidden";
+@import "./components/modal-window";
+@import "./components/modal-form";
+@import "./components/modal-checkbox";
+
