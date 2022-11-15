@@ -1,3 +1,4 @@
+@import "./utils/is-hidden";
 @import "./utils/vars.scss";
 @import "./components/reset";
 @import "./components/container";
@@ -24,7 +25,6 @@
 @import "./components/footer-sidebar";
 
 @import "./components/modal-background";
-@import "./components/is-hidden";
 @import "./components/modal-window";
 @import "./components/modal-form";
 @import "./components/modal-checkbox";
