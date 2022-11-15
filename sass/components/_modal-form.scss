@@ -56,16 +56,8 @@
     font-size: 12px;
     transition: border-color 250ms
       cubic-bezier(0.4, 0, 0.2, 1);
-      
-    &:hover,
-    &:focus {
-      border-color: $accentC;
-    }
-    &:hover + .modal-form__icon,
-    &:focus + .modal-form__icon {
-      fill: $accentC;
-    }
   }
+
   .modal-form__icon {
     position: absolute;
     top: 50%;
@@ -74,6 +66,19 @@
     pointer-events: none;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+
+  .modal-form__input {
+
+    & input:hover,
+    & input:focus {
+      border-color: $accentC;
+  }
+
+    & input:hover + .modal-form__icon,
+    & input:focus + .modal-form__icon {
+      fill: $accentC;
+  }
+}
 
   .modal-form__btn {
     display: block;
