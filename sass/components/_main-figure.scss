@@ -11,8 +11,9 @@
     &:focus {
       background-color: $accentC;
     }
-  }
-  .main-figure:hover .team__icon,
-  .main-figure:focus .team__icon {
+    &:hover .team__icon,
+    &:focus .team__icon {
     fill: #fff;
+    }
   }
+  

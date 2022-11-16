@@ -13,10 +13,13 @@
     display: flex;
     flex-direction: column;
     padding-left: 70px;
+
+    &__icon {
+      fill: white;
+    }
+    
   }
-  .footer-tabs__icon {
-    fill: white;
-  }
+ 
   .footer-tabs__link {
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);

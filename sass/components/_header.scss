@@ -12,7 +12,7 @@
     align-items: center;
   }
   .header__logo {
-    font-family: "Raleway";
+    font-family: $secondF;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -55,14 +55,13 @@
     &:focus {
       color: $accentC;
     }
+    & .header__icon {
+      fill: $greyC;
+      margin-right: 10px;
+      transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
   }
-  
-  .header__link .header__icon {
-    fill: $greyC;
-    margin-right: 10px;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
+
   .header__item:hover .header__icon,
   .header__item:focus .header__icon {
     fill: $accentC;
