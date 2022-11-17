@@ -19,8 +19,7 @@
     line-height: 1.25;
     font-size: 16px;
     letter-spacing: 0.03em;
-    transition: border-color 250ms
-      cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color $trans;
   
     &::placeholder {
       color: rgba(255, 255, 255, 0.3);
