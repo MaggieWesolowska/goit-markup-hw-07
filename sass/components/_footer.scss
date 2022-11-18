@@ -6,26 +6,7 @@
   justify-content: flex-start;
   padding: 60px 0;
 }
-.footer__logo {
-  font-family: $secondF;
-  display: inline-block;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #fff;
-  text-decoration: none;
-  margin-bottom: 20px;
-  transition: color $trans;
 
-  &:hover,
-  &:focus {
-    color: $accentC;
-  }
-}
-.footer__title {
-  color: $accentC;
-}
 .footer__index {
   display: block;
   font-style: normal;
