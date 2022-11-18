@@ -7,7 +7,7 @@
     "components/_container.scss",
     "components/_main-title.scss",
     "components/_main-images.scss",
-    "components/_main-tabs.scss",
+    "components/_social-tabs.scss",
     "components/_social-link.scss",
     "components/_header.scss",
     "components/_nav.scss",

@@ -39,7 +39,7 @@ body {
   list-style-type: none;
   gap: 30px;
 }
-.main-tabs {
+.social-tabs {
   display: flex;
   justify-content: center;
   list-style-type: none;
