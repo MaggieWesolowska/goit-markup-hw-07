@@ -1,0 +1,18 @@
+.social-links {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: transform $trans;
+
+  &:hover,
+  &:focus {
+    background-color: $accentC;
+  }
+  &:hover .team__icon,
+  &:focus .team__icon {
+    fill: #fff;
+  }
+}
