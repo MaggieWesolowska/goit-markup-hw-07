@@ -474,7 +474,7 @@ body {
   font-style: normal;
   color: #fff;
 }
-.footer__text {
+.footer__link--light {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
