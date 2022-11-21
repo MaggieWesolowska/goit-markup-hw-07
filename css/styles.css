@@ -673,12 +673,12 @@ body {
 .modal-form__textarea::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-.modal-form__input {
+.modal-form__box {
   display: block;
   position: relative;
   margin-top: 4px;
 }
-.modal-form__input input {
+.modal-form__box input {
   height: 40px;
   width: 100%;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -697,19 +697,19 @@ body {
   pointer-events: none;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-form__input input:hover,
-.modal-form__input input:focus {
+.modal-form__box input:hover,
+.modal-form__box input:focus {
   border-color: var(--accent-color);
 }
-.modal-form__input input:hover + .modal-form__icon,
-.modal-form__input input:focus + .modal-form__icon {
+.modal-form__box input:hover + .modal-form__icon,
+.modal-form__box input:focus + .modal-form__icon {
   fill: var(--accent-color);
 }
 .modal-form__textarea:hover,
 .modal-form__textarea:focus {
   border-color: var(--accent-color);
 }
-.modal-checkbox__input {
+.modal-checkbox__box {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -730,7 +730,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--grey-color);
 }
-input:checked + .modal-checkbox__input {
+input:checked + .modal-checkbox__box {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
 }
